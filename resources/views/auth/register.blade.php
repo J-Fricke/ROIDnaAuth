@@ -10,7 +10,7 @@
 
                         @include('errors.errors')
 
-                        <form class="form-horizontal" role="form" method="POST" action="/laravel/public/register">
+                        <form class="form-horizontal" role="form" method="POST" action="{{URL::to('/')}}/register">
                             <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                             <div class="form-group">
