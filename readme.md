@@ -28,6 +28,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Setup
 Create .env file in the root of the install directory and fill in your values, you can use the .env.example and replace as needed 
+
+## .env.example
 APP_ENV=local
 APP_DEBUG=true
 APP_KEY=LARAVEL_KEY
@@ -58,4 +60,5 @@ TWITTER_KEY=TWTTER_KEY
 TWITTER_SECRET=TWITTER_SECRET
 TWITTER_REDIRECT=INSTALL_URL/login/callback/twitter
 
+#Post .env Database setup
 Once you have the .env data setup, you can run `php artisan migrate` to setup your database 
