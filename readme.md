@@ -3,6 +3,7 @@ A simple login web app using Laravel 5 with the ablity to register, login (usern
 
 # Setup
 run `composer install` and `composer update` to make sure you have all the packages required.
+run `chmod -R 777 /path/to/install/storage` to allow for the cache and logs to be written.
 Create .env file in the root of the install directory and fill in your values, you can use the .env.example and replace as needed 
 
 # .env.example
