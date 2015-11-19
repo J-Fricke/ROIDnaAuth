@@ -1,5 +1,5 @@
 #Simple login web app 
-A simple login web app using Laravel 5 with the ablity to register, login (username+password & Social: Facebook and Twitter), reset your password, and send emails via the Mandrill API. Requires Composer [Composer Website](https://getcomposer.org/)  
+A simple login web app using Laravel 5 with the ablity to register, login (username+password & Social: Facebook and Twitter), reset your password, and send emails via the Mandrill API. Requires  [Composer](https://getcomposer.org/).  
 
 # Setup
 run `composer install` and `composer update` to make sure you have all the packages required.
