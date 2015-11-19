@@ -122,7 +122,7 @@ class AuthController extends Controller
                 $registeredUser = $this->createSocialUser((array)$user);
             }
         } else if (!$registeredUser) {
-            $registeredUser = User::create($user);
+            $registeredUser = User::create((array) $user);
         }
         $this->auth->login($registeredUser);
     }
