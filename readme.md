@@ -57,3 +57,5 @@ FACEBOOK_REDIRECT=INSTALL_URL/login/callback/facebook
 TWITTER_KEY=TWTTER_KEY
 TWITTER_SECRET=TWITTER_SECRET
 TWITTER_REDIRECT=INSTALL_URL/login/callback/twitter
+
+Once you have the .env data setup, you can run `php artisan migrate` to setup your database 
