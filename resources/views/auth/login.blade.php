@@ -46,7 +46,7 @@
 
                                     <a href="{{URL::to('/')}}/password/email">Forgot Your Password?</a>
                                 </div>
-                                <div class="col-md-6 col-md-offset-4">
+                                <div class="col-md-6 col-md-offset-4" style="margin-top:1em;">
                                     <p>New here, you can <a href="{{URL::to('/')}}/register">register an account</a>.</p>
                                     <p>You may also Login in with <a href="{{URL::to('/')}}/login/twitter">Twitter</a> or <a href="{{URL::to('/')}}/login/facebook">Facebook</a>.</p>
                                 </div>
